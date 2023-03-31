@@ -24,3 +24,8 @@
 .card-border {
   border-color: darkred;
 }
+
+.card-img-position {
+  object-fit: cover;
+  height: 200px;
+}
