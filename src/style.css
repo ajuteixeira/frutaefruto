@@ -21,6 +21,11 @@
   background-color: darkred;
 }
 
+.button-background:hover {
+  color: whitesmoke;
+  background-color: #8b0000d3;
+}
+
 .card-border {
   border-color: darkred;
 }
