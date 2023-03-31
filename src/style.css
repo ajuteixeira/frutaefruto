@@ -21,6 +21,15 @@
   background-color: darkred;
 }
 
+.button-background:hover {
+  color: whitesmoke;
+  background-color: #8b0000d3;
+}
+
+.card-size {
+  max-width: 18rem;
+}
+
 .card-border {
   border-color: darkred;
 }
