@@ -43,7 +43,7 @@
     </nav>
   </header>
   <main>
-    <section class="carousel-container">
+    <section id="carousel">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -77,67 +77,69 @@
         </button>
       </div>
     </section>
-    <section class="title-container">
+    <section id="title">
       <h1 class="text-center title-font title-color pt-5">Receitas para economizar e ganhar saúde</h1>
       <p class="text-center text-secondary pb-5">Nossas receitas ajudam você a aproveitar melhor os alimentos,
         economizar, ganhar
         tempo e praticidade</p>
     </section>
-    <section class="recipes-container">
-      <article class="card card-border" style="width: 18rem;">
-        <img src="/src/img/receita-abacate.jpg" class="card-img-top card-img-position"
-          alt="tigela com salada de abacate, vista superior">
-        <div class="card-body">
-          <h5 class="card-title">Tigela de abacate</h5>
-          <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
-          <a href="#" class="btn button-background">Veja a receita</a>
-        </div>
-      </article>
-      <article class="card card-border" style="width: 18rem;">
-        <img src="src/img/receita-kiwi.jpg" class="card-img-top card-img-position"
-          alt="tigela de mingau com kiwi, vista superior">
-        <div class="card-body">
-          <h5 class="card-title">Salada de kiwi</h5>
-          <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
-          <a href="#" class="btn button-background">Veja a receita</a>
-        </div>
-      </article>
-      <article class="card card-border" style="width: 18rem;">
-        <img src="src/img/receita-mix.jpg" class="card-img-top card-img-position"
-          alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
-        <div class="card-body">
-          <h5 class="card-title">Mix de vegetais</h5>
-          <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
-          <a href="#" class="btn button-background">Veja a receita</a>
-        </div>
-      </article>
-      <article class="card card-border" style="width: 18rem;">
-        <img src="src/img/receita-pimentoes.jpg" class="card-img-top card-img-position"
-          alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
-        <div class="card-body">
-          <h5 class="card-title">Pimentões à Juliana</h5>
-          <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
-          <a href="#" class="btn button-background">Veja a receita</a>
-        </div>
-      </article>
-      <article class="card card-border" style="width: 18rem;">
-        <img src="src/img/receita-oriental.jpg" class="card-img-top card-img-position"
-          alt="tigela com salada de vegetais estilo oriental, vista de cima">
-        <div class="card-body">
-          <h5 class="card-title">Prato oriental</h5>
-          <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
-          <a href="#" class="btn button-background">Veja a receita</a>
-        </div>
-      </article>
-      <article class="card card-border" style="width: 18rem;">
-        <img src="src/img/receita-beterrabas.jpg" class="card-img-top card-img-position"
-          alt="tigela com beterrabas e dentes de alho assados em primeiro plano, com ingredientes ao fundo">
-        <div class="card-body">
-          <h5 class="card-title">Beterrabas assadas</h5>
-          <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
-          <a href="#" class="btn button-background">Veja a receita</a>
-        </div>
-      </article>
+    <section class="container-fluid bg-light" id="recipes">
+      <div class="row justify-content-center">
+        <article class="card card-size card-border p-0 m-4 col-12 col-md-4">
+          <img src="/src/img/receita-abacate.jpg" class="card-img-top card-img-position"
+            alt="tigela com salada de abacate, vista superior">
+          <div class="card-body">
+            <h5 class="card-title">Tigela de abacate</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn button-background">Veja a receita</a>
+          </div>
+        </article>
+        <article class="card card-size card-border p-0 m-4 col-12 col-md-4">
+          <img src="src/img/receita-kiwi.jpg" class="card-img-top card-img-position"
+            alt="tigela de mingau com kiwi, vista superior">
+          <div class="card-body">
+            <h5 class="card-title">Salada de kiwi</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn button-background">Veja a receita</a>
+          </div>
+        </article>
+        <article class="card card-size card-border p-0 m-4 col-12 col-md-4">
+          <img src="src/img/receita-mix.jpg" class="card-img-top card-img-position"
+            alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
+          <div class="card-body">
+            <h5 class="card-title">Mix de vegetais</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn button-background">Veja a receita</a>
+          </div>
+        </article>
+        <article class="card card-size card-border p-0 m-4 col-12 col-md-4">
+          <img src="src/img/receita-pimentoes.jpg" class="card-img-top card-img-position"
+            alt="prato de salada de pimentões com alguns ingredientes ao lado, vista superior">
+          <div class="card-body">
+            <h5 class="card-title">Pimentões à Juliana</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn button-background">Veja a receita</a>
+          </div>
+        </article>
+        <article class="card card-size card-border p-0 m-4 col-12 col-md-4">
+          <img src="src/img/receita-oriental.jpg" class="card-img-top card-img-position"
+            alt="tigela com salada de vegetais estilo oriental, vista de cima">
+          <div class="card-body">
+            <h5 class="card-title">Prato oriental</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn button-background">Veja a receita</a>
+          </div>
+        </article>
+        <article class="card card-size card-border p-0 m-4 col-12 col-md-4">
+          <img src="src/img/receita-beterrabas.jpg" class="card-img-top card-img-position"
+            alt="tigela com beterrabas e dentes de alho assados em primeiro plano, com ingredientes ao fundo">
+          <div class="card-body">
+            <h5 class="card-title">Beterrabas assadas</h5>
+            <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+            <a href="#" class="btn button-background">Veja a receita</a>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
   <p>contato:<a href="mailto:email@frutafruto.com.br">email@frutafruto.com.br</a></p>

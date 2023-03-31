@@ -26,6 +26,10 @@
   background-color: #8b0000d3;
 }
 
+.card-size {
+  max-width: 18rem;
+}
+
 .card-border {
   border-color: darkred;
 }
