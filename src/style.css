@@ -12,6 +12,15 @@
   font-family: 'Pacifico', cursive;
 }
 
-.main-color {
+.title-color {
   color: darkred;
+}
+
+.button-background {
+  color: white;
+  background-color: darkred;
+}
+
+.card-border {
+  border-color: darkred;
 }
