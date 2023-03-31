@@ -1,0 +1,13 @@
+.carousel-img1,
+.carousel-img2 {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-img1 {
+  object-position: 0 80%;
+}
+
+.title-font {
+  font-family: 'Pacifico', cursive;
+}
